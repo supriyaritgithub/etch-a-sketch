@@ -1,4 +1,5 @@
 const container = document.querySelector(".grid-container");
+const resetBtn = document.getElementById("reset")
 
 function createGrid(gridSize) {
     for (let i = 0; i < gridSize * gridSize; i++) {
@@ -13,4 +14,10 @@ function createGrid(gridSize) {
     }
 }
 
+function resetGrid ()  {
+    container.innerHTML = "";
+    createGrid(16);    
+}
+
+resetBtn.addEventListener("click", resetGrid);
 createGrid(16);
