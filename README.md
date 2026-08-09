@@ -2,9 +2,6 @@
 
 A browser-based drawing application built with HTML, CSS, and JavaScript.
 
-## Demo
-[etch-a-sketch](http://127.0.0.1:5500/index.html)
-
 ## Features
 
 - Draw on a grid canvas using your mouse
