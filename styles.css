@@ -1,7 +1,15 @@
 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(16,2fr);
+    grid-template-rows: repeat(16,2fr);
     width: 500px;
     height: 500px;
-    display: grid;
-    grid-template-columns: repeat(16,4fr);
-    grid-template-rows: repeat(16,4fr);
+    background-color: #ffffff;
+    border: 8px solid #cc1111;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.color {
+    background-color: black;
+    border: solid black;
 }
